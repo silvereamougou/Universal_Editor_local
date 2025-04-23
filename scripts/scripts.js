@@ -107,6 +107,11 @@ async function loadEager(doc) {
   } catch (e) {
     // do nothing
   }
+  // Add Universal Editor meta tag here 
+  const aueMeta = document.createElement('meta');
+  aueMeta.name = 'urn:adobe:aue:config:service';
+  aueMeta.content = 'https://localhost:8000';
+  document.head.append(aueMeta);
 }
 
 /**
