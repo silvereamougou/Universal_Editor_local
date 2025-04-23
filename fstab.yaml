@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://localhost:8443/bin/franklin.delivery/silvereamougou/Universal_Editor_local/main"
+    url: "https://main--Universal_Editor_local--silvereamougou.hlx.live/"
     type: "markup"
     suffix: ".html"
